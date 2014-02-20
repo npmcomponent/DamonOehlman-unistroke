@@ -1,30 +1,11 @@
 {
-  "name": "unistroke",
+  "name": "damonoehlman-unistroke",
   "description": "Algorithmically equivalent but more Javascripty version of the Washington $1 Unistroke Regognizer",
-  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
   "version": "0.3.2",
-  "dependencies": {},
-  "devDependencies": {
-    "tape": "~2.4.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DamonOehlman/unistroke.git"
-  },
-  "bugs": {
-    "url": "https://github.com/DamonOehlman/unistroke/issues"
-  },
-  "scripts": {
-    "test": "node test/all.js",
-    "gendocs": "gendocs > README.md"
-  },
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "keywords": [
     "gesture",
     "unistroke"
   ],
-  "license": "BSD-2-Clause"
+  "main": "index.js",
+  "dependencies": {}
 }
